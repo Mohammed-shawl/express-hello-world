@@ -1,27 +1,26 @@
 {
-  "name": "express-hello-world",
+  "name": "promo-code-backend",
   "version": "1.0.0",
-  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
+  "description": "Backend server for managing promo codes",
   "main": "server.js",
   "scripts": {
-    "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/express-hello-world.git"
-  },
-  "author": "Cyclic Software",
+  "keywords": [
+    "promo",
+    "code",
+    "backend",
+    "server",
+    "websocket",
+    "express"
+  ],
+  "author": "Your Name",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/express-hello-world/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/express-hello-world#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+    "express": "^4.18.3",
+    "ws": "^8.16.0",
+    "node-fetch": "^2",
+    "socket.io": "^4.7.5",
+    "path": "^0.12.7"
   }
 }
